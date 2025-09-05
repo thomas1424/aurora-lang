@@ -1,0 +1,20 @@
+{
+  "name": "aurora-lang-thomas1424",
+  "version": "0.1.0",
+  "description": "Aurora — a small real programming language that compiles to JS",
+  "bin": {
+    "aurora": "./bin/aurora-cli.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/aurora-cli.js",
+    "test": "node ./dist/index.js examples/hello.aur"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["language","compiler","interpreter","aurora"],
+  "license": "MIT"
+}
