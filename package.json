@@ -5,11 +5,11 @@
   "bin": {
     "aurora": "./bin/aurora-cli.js"
   },
-  "main": "dist/index.js",
+  "main": "aurora.js",
   "scripts": {
     "build": "tsc",
     "start": "node ./bin/aurora-cli.js",
-    "test": "node ./dist/index.js examples/hello.aur"
+    "test": "node ./aurora.js examples/hello.aur"
   },
   "dependencies": {},
   "devDependencies": {
